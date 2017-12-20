@@ -1,0 +1,12 @@
+.cache
+.idea
+
+*.DS_Store
+*.log
+
+node_modules
+dist
+build
+builds
+target
+TODO.md
