@@ -1,9 +1,13 @@
 import React from "react";
+import Routes from "./routes";
+import LayoutWrapper from "components/LayoutWrapper"
 
 class App extends React.Component {
     render(){
         return (
-            <h1>MobX Boilerplate</h1>
+            <LayoutWrapper>
+                <Routes />
+            </LayoutWrapper>
         )
     }
 }

@@ -2,16 +2,16 @@ const path = require("path")
 const webpack = require("webpack")
 
 const babelEnvDeps = require("webpack-babel-env-deps")
-const printWelcomeMessage = require("./appConfig/scripts/welcomeMessage")
-const getAliasesMap = require("./appConfig/scripts/aliasesMap")
-const GLOBALS = require("./appConfig/globals")
+const printWelcomeMessage = require("./app_config/scripts/welcomeMessage")
+const getAliasesMap = require("./app_config/scripts/aliasesMap")
+const GLOBALS = require("./app_config/globals")
 
 // Webpack Plugins
 const ExtractTextPlugin = require("extract-text-webpack-plugin")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 
 // Configuration constants
-const APP_CONFIG = require("./appConfig")
+const APP_CONFIG = require("./app_config")
 
 // Welcome Message
 printWelcomeMessage(APP_CONFIG.WELCOME_MESSAGE)

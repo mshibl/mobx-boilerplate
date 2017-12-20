@@ -1,10 +1,15 @@
 import React from "react";
-import { Switch, Route, Router } from "react-router-dom"
+import { Switch, Route, BrowserRouter } from "react-router-dom";
+import HomeView from "views/HomeView";
 
 const Routes = () => {
     return (
-        <h1>Hello World</h1>
-    )
-}
+        <BrowserRouter>
+            <Switch>
+                <Route exact path="/" component={HomeView} />
+            </Switch>
+        </BrowserRouter>
+    );
+};
 
 export default Routes;
