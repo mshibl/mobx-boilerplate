@@ -7,7 +7,7 @@ const { Header, Content, Footer } = Layout;
 class LayoutWrapper extends React.Component {
     render() {
         return (
-            <Layout className="layout">
+            <Layout className="app-layout">
                 <Header>
                     <NavBar />
                 </Header>
