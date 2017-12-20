@@ -35,7 +35,6 @@ webpackConfig.output = {
     publicPath: APP_CONFIG.PUBLIC_PATH
 }
 
-
 webpackConfig.resolve = {
     extensions: ['.jsx', '.ts', '.js'],
     alias: getAliasesMap(appDirectory)

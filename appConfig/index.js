@@ -3,7 +3,7 @@ module.exports = {
     WELCOME_MESSAGE: "Mobx Boilerplate",
 
     // Name of the app directory where all of the app logic is stored
-    APP_DIR: "App",
+    APP_DIR: "src",
 
     // Target defins how webpack compiles the files (ex. Web vs. Electron). Defaults to web
     TARGET: process.env.TARGET || "web",

@@ -4,7 +4,7 @@
   "description": "Modern MobX boilerplate",
   "main": "src/index.html",
   "scripts": {
-    "lint": "node_modules/.bin/eslint App/",
+    "lint": "node_modules/.bin/eslint src/",
     "start": "yarn dev",
     "dev": "NODE_ENV=development webpack-dev-server --hot"
   },
