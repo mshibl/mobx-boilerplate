@@ -1,0 +1,6 @@
+{
+  "extends": "way2b1",
+  "globals": {
+      "APP_VERSION": true
+  }
+}
